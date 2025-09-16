@@ -1,0 +1,1084 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/ThreadMetalPlate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/darwin-op/protos/Darwin-op.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/sony/aibo/protos/AiboErs7.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/pipes/protos/LJoint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Wrench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Hammer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/pallet/protos/WoodenPallet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/PaintBucket.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Screwdriver.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/valves/protos/LeverValve.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/valves/protos/LargeValve.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/pipes/protos/PipeSection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/valves/protos/SmallValve.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/hospital/protos/EmergencyExitSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairsRail.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "../protos/Rosbot.proto"
+EXTERNPROTO "../protos/Victim.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 5.2328518652753555e-05 -4.299947671333378 74.41591535041121
+}
+TexturedBackground {
+  texture "empty_office"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 10.8
+  location -4 6 5
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 9.6
+  location 5 6 5
+}
+Floor {
+  translation 0 -4.3 0
+  name "floor(1)"
+  size 20 16.4
+  tileSize 1 1
+  appearance ThreadMetalPlate {
+  }
+}
+Door {
+  translation 10.04 -4 3.27
+  rotation 0 0 1 3.141592
+  name "door(1)"
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.35 0.3503166247043564 0.35
+  }
+}
+OilBarrel {
+  translation 9.337425 2.8961435 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation 8.4218847 2.1373536 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation 8.12232 1.04779 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation 7.13876 1.31818 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(4)"
+}
+OilBarrel {
+  translation 6.84714 0.257568 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(5)"
+}
+OilBarrel {
+  translation 5.74795 0.55982 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(9)"
+}
+OilBarrel {
+  translation 5.32365 -0.982919 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(10)"
+}
+OilBarrel {
+  translation 7.93671 -0.0420344 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(6)"
+}
+OilBarrel {
+  translation 7.61849 -1.19908 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(7)"
+}
+OilBarrel {
+  translation 6.05648 -0.769567 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(8)"
+}
+OilBarrel {
+  translation 8.2750954 3.0222101 0.44
+  rotation 0 0 1 -0.340335
+}
+Door {
+  translation -10.05 0 0.02
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.35 0.3503166247043564 0.35
+  }
+}
+Floor {
+  translation 0 -4.22 7
+  rotation 1 0 0 3.141592
+  size 20 16.4
+  tileSize 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/asphalt.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+Darwin-op {
+  translation -0.184108 -4.90072 0.820325
+  rotation -0.6222989795058281 0.45366398505948424 -0.6379129789916121 -2.247155307179586
+  controller "<generic>"
+}
+AiboErs7 {
+  translation 1.1565273 -4.9369095 0.82215018
+  rotation -0.26735092200225136 0.7698527754008746 -0.5795258309274203 2.679
+  controller "<generic>"
+}
+LJoint {
+  translation -7.571 3.19 0.712
+  rotation 0 0 1 -1.5708
+  name "L joint pipe(1)"
+}
+LJoint {
+  translation -7.571 3.277 2.422
+  rotation -0.577350278331609 0.577350264618634 0.577350264618634 2.094395086923155
+}
+Wrench {
+  translation -0.35779017 -4.3479161 0.74
+  rotation 0 0 1 -1.5707953071795862
+  name "wrench(1)"
+}
+Wrench {
+  translation 0.8606647 -4.6966955 0.74
+  rotation 0 0 1 -2.565635307179586
+}
+Hammer {
+  translation -0.807916 -4.68048 0.754
+  rotation 0 0 1 -2.094395307179586
+  name "hammer(1)"
+}
+Hammer {
+  translation 1.5252822 -4.8882693 0.754
+  rotation 0 0 1 2.35619
+}
+WoodenPallet {
+  translation -3.05 -12.1 0.52
+  rotation 0.44721372362178063 0.44721372362178063 0.7745965212991105 -1.82348
+}
+Table {
+  translation -0.441 -4.785 0.000
+  rotation 0.000 0.000 1.000 0.138
+  size 4.5 1.5 0.74
+}
+Table {
+  translation 4.445 -4.767 0.000
+  rotation 0.000 0.000 1.000 -0.076
+  name "table(1)"
+  size 4.5 1.5 0.74
+}
+Table {
+  translation -7.390 -3.691 0.000
+  rotation 0.000 0.000 1.000 -1.498
+  name "table(2)"
+  size 4.5 1.5 0.74
+}
+Table {
+  translation -4.992 -3.864 0.000
+  rotation 0.000 0.000 1.000 -1.415
+  name "table(3)"
+  size 4.5 1.5 0.74
+}
+Table {
+  translation -5.059 0.369 0.000
+  rotation 0.000 0.000 1.000 -1.610
+  name "table(4)"
+  size 4.5 1.5 0.74
+}
+CardboardBox {
+  translation 2.2324987 -11.807743 0.31
+  rotation 0 0 1 -1.5707963267948966
+}
+PaintBucket {
+  translation -0.72150306 -5.1778419 0.74
+  rotation 0 0 1 1.0472
+}
+Screwdriver {
+  translation -0.054863304 -5.1915357 0.752
+  rotation 0.37796390461552926 0.6546538347889604 0.6546538347889604 2.41886
+}
+WoodenPalletStack {
+  translation -7.33249 -11.7543 0
+  name "wooden pallet stack(1)"
+  palletNumber 6
+}
+WoodenPalletStack {
+  translation -5.2560137 -11.74814 0
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation -5.25601 -10.5781 0
+  name "wooden pallet stack(2)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation 3.03399 -7.7681 0
+  name "wooden pallet stack(3)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation 1.71399 -7.7681 0
+  name "wooden pallet stack(4)"
+  palletNumber 20
+}
+WoodenBox {
+  translation 0.070787217 -11.12746 0.3
+  rotation -0.935113119114731 0.250562820924732 0.250562820924732 4.645351474266668
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 0.14546116 -11.909219 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -1.1321262 -11.1489 0.3
+  rotation 0.862856210520177 0.357406743058074 0.357406743058073 1.71777151624413
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation 1.5463886 -11.768592 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(4)"
+}
+WoodenBox {
+  translation -0.49883855 -11.765703 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(5)"
+}
+WoodenBox {
+  translation 0.95220994 -10.946614 0.3
+  rotation -0.677661491465059 0.519987933987584 0.519987933987584 4.332744312017075
+  name "wooden box(6)"
+}
+WoodenBox {
+  translation 0.91693757 -11.921006 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(7)"
+}
+WoodenBox {
+  translation 0.74212598 -12.012516 0.9
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(8)"
+}
+WoodenBox {
+  translation -0.5072975 -11.706525 1.52
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(9)"
+}
+WoodenBox {
+  translation -0.48872581 -11.691652 0.93
+  rotation 1 0 0 1.5707963267948966
+}
+LeverValve {
+  translation -7.5791585 3 0.692
+  rotation 0 0 1 -1.5708
+}
+LargeValve {
+  translation -5.7149744 2.9726835 0.706
+  rotation 0 0 1 -1.5708
+}
+PipeSection {
+  translation -7.5740452 3 0.18
+  name "pipe section(1)"
+  height 1.2
+}
+PipeSection {
+  translation -5.2940471 3 0.7
+  rotation 0 1 0 1.5708
+  name "pipe section(2)"
+  height 0.9
+  radius 0.02
+}
+PipeSection {
+  translation -7.5720026 3.234 1.56
+  name "pipe section(3)"
+  height 1.6
+}
+PipeSection {
+  translation -4.8579962 3 0.35
+  name "pipe section(4)"
+  height 0.7
+  radius 0.02
+}
+PipeSection {
+  translation -6.6249962 3 0.70600102
+  name "pipe section(5)"
+  height 1.7
+}
+PipeSection {
+  translation -7.572 3.74 2.4659975
+  rotation 1 0 0 -1.5708
+  name "pipe section(6)"
+  height 0.8
+}
+PipeSection {
+  translation -5.714996 3.37 0.65600436
+  rotation 1 0 0 1.5708
+  height 0.8
+}
+SmallValve {
+  translation -4.8638332 3 0.707
+  rotation 0 0 1 -1.5708
+}
+Wall {
+  translation 0 3.82 0
+  name "wall(1)"
+  size 20 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Cabinet {
+  translation -0.142 3.491 0.000
+  rotation 0.000 0.000 1.000 -1.538
+  name "cabinet(1)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Cabinet {
+  translation -2.458 3.955 0.000
+  rotation 0.000 0.000 1.000 -1.696
+  name "cabinet(2)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Cabinet {
+  translation -3.551 4.052 0.000
+  rotation 0.000 0.000 1.000 -1.523
+  name "cabinet(3)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Cabinet {
+  translation 1.508 3.955 0.000
+  rotation 0.000 0.000 1.000 -1.470
+  columnsWidths [
+    1, 1
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 1, 5, 1.5)"
+  ]
+}
+Cabinet {
+  translation 3.607 4.084 0.000
+  rotation 0.000 0.000 1.000 -1.467
+  name "cabinet(4)"
+  columnsWidths [
+    1, 1
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 1, 5, 1.5)"
+  ]
+}
+Cabinet {
+  translation 5.910 4.057 0.000
+  rotation 0.000 0.000 1.000 -1.395
+  name "cabinet(5)"
+  columnsWidths [
+    1, 1
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 1, 5, 1.5)"
+  ]
+}
+Wall {
+  translation 0 -12.5 0
+  name "wall(2)"
+  size 20 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Wall {
+  translation -10 -4.3 0
+  rotation 0 0 1 1.5708
+  name "wall(3)"
+  size 16.5 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Wall {
+  translation -6.19 -1.27 0
+  rotation 0 0 1 1.5708
+  name "wall(4)"
+  size 10 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Wall {
+  translation 4.92 -9.69999 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(5)"
+  size 10 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Wall {
+  translation 10 -4.3 0
+  rotation 0 0 1 -1.5708
+  size 16.5 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+EmergencyExitSign {
+  translation 9.82 -4.02 5.45
+  rotation 0.5773509358560258 -0.577349935856137 -0.577349935856137 2.09439
+}
+EmergencyExitSign {
+  translation -9.83 -0.01 2.3
+  rotation 0.5773489358550934 0.5773519358547601 0.5773499358549823 2.0944
+  name "emergency exit sign(1)"
+}
+Solid {
+  translation -9.87 -6.36 4.13
+  rotation 0.7071067811865476 0 0.7071067811865476 3.141592
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/ladybug.png"
+          ]
+          filtering 5
+        }
+        transparency 0.6
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+      geometry Plane {
+        size 5 5
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 9.25 -3.95 3.21
+  rotation 1 0 0 1.5707963267948966
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/steel_floor.jpg"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          scale 2 2
+        }
+      }
+      geometry Box {
+        size 1.5 0.12 2.6
+      }
+    }
+  ]
+}
+StraightStairsRail {
+  translation 8.52 -2.73 3.27
+  rotation 0 0 1 -1.5708
+  name "straight stairs rail(1)"
+  run 2.5
+  rise 0
+  newelHeight 0.89
+  balusterHeight 0.9
+  nBalusters 9
+  appearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+    }
+  }
+}
+StraightStairsRail {
+  translation 8.57 -5.23 3.27
+  run 1.3
+  rise 0
+  newelHeight 0.89
+  balusterHeight 0.9
+  nBalusters 5
+  appearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+    }
+  }
+}
+StraightStairs {
+  translation 9.201 0.17 0
+  rotation 0 0 1 -1.5708
+  stepSize 0.3 1.34 0.01
+  stepRise 0.297
+  nSteps 10
+  stepAppearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+      scale 3 1
+    }
+  }
+  stringerAppearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+      scale 3 3
+    }
+  }
+  leftRail []
+  rightRail [
+    StraightStairsRail {
+      run 3
+      rise 2.97
+      newelHeight 0.862
+      balusterHeight 0.83
+      nBalusters 12
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+    }
+  ]
+}
+Rosbot {
+  name "ROSbot 1"
+  controller "proposed_solution"
+}
+Rosbot {
+  translation 9.02 -3.44712 0
+  rotation 0 0 1 -0.523595307179586
+  name "ROSbot 2"
+  controller "proposed_solution"
+}
+Rosbot {
+  translation -7.02 -0.83 0
+  name "ROSbot 3"
+  controller "proposed_solution"
+}
+Robot {
+  children [
+    Receiver {
+      channel 43
+      allowedChannels [
+        43
+      ]
+    }
+    Emitter {
+      channel 42
+      allowedChannels [
+        42
+      ]
+    }
+  ]
+  name "sar_human_supervisor"
+  controller "sar_human_supervisor"
+  supervisor TRUE
+}
+# Debris (scattered, no overlap)
+
+SolidBox {
+name "debris(1)"
+translation 8.443 -5.418 0.087
+rotation -0.545 -0.679 -0.492 0.324
+size 0.625 0.543 0.074
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(2)"
+translation -3.364 -10.480 0.106
+rotation -0.282 -0.956 0.079 0.833
+size 0.455 0.281 0.111
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(3)"
+translation 3.920 -0.804 0.141
+rotation 0.225 0.151 0.963 0.167
+size 0.461 0.547 0.182
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(4)"
+translation -2.814 0.456 0.130
+rotation -0.637 0.751 -0.176 0.064
+size 0.368 0.220 0.161
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(5)"
+translation 1.559 -9.464 0.081
+rotation 0.739 0.465 0.488 2.917
+size 0.580 0.324 0.061
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(6)"
+translation -8.710 -3.882 0.083
+rotation 0.475 0.410 0.779 2.620
+size 0.410 0.511 0.067
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(7)"
+translation 5.374 -8.309 0.108
+rotation 0.475 0.661 0.581 2.235
+size 0.181 0.200 0.116
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(8)"
+translation -7.038 -7.849 0.081
+rotation 0.170 0.651 -0.740 0.795
+size 0.465 0.684 0.062
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(9)"
+translation 4.272 -2.080 0.129
+rotation -0.563 0.576 0.593 2.180
+size 0.210 0.751 0.158
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(10)"
+translation -5.701 -5.598 0.097
+rotation 0.543 0.607 -0.580 1.801
+size 0.147 0.283 0.095
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(11)"
+translation 1.209 -10.750 0.088
+rotation 0.657 0.421 -0.625 0.448
+size 0.644 0.360 0.076
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(12)"
+translation -8.788 -8.546 0.158
+rotation 0.871 -0.058 0.488 0.076
+size 0.571 0.797 0.216
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(13)"
+translation 1.335 -1.697 0.093
+rotation 0.719 0.628 -0.297 1.421
+size 0.355 0.390 0.086
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(14)"
+translation 8.071 -0.679 0.154
+rotation 0.730 -0.262 0.631 0.206
+size 0.224 0.315 0.208
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(15)"
+translation 0.043 2.589 0.079
+rotation 0.592 0.198 -0.781 2.699
+size 0.289 0.514 0.057
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(16)"
+translation 7.520 -6.483 0.124
+rotation 0.578 -0.449 -0.681 0.795
+size 0.126 0.244 0.148
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(17)"
+translation -5.629 -2.195 0.146
+rotation 0.938 -0.092 -0.333 1.446
+size 0.250 0.759 0.192
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(18)"
+translation 6.279 -7.340 0.097
+rotation -0.135 0.359 -0.924 2.346
+size 0.194 0.467 0.094
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(19)"
+translation 0.484 -1.038 0.156
+rotation -0.295 -0.296 -0.909 0.024
+size 0.696 0.411 0.213
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(20)"
+translation 6.137 -3.802 0.071
+rotation 0.271 0.722 0.637 0.455
+size 0.236 0.759 0.042
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(21)"
+translation 5.055 -3.393 0.076
+rotation -0.576 0.582 0.574 0.409
+size 0.190 0.780 0.052
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(22)"
+translation -4.947 -3.933 0.145
+rotation -0.990 -0.039 0.134 1.963
+size 0.231 0.288 0.190
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(23)"
+translation 6.856 -3.171 0.135
+rotation 0.393 0.683 -0.616 2.913
+size 0.311 0.181 0.170
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(24)"
+translation -1.652 -7.152 0.105
+rotation -0.178 0.824 0.539 1.436
+size 0.593 0.438 0.109
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(25)"
+translation 7.306 -10.538 0.118
+rotation -0.033 0.275 -0.961 1.972
+size 0.351 0.565 0.136
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(26)"
+translation -5.164 -6.509 0.142
+rotation 0.583 0.409 0.702 0.677
+size 0.630 0.170 0.185
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(27)"
+translation -1.717 -10.884 0.095
+rotation 0.563 0.619 -0.547 0.986
+size 0.710 0.560 0.091
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(28)"
+translation -3.684 -7.375 0.114
+rotation 0.080 -0.992 -0.092 1.961
+size 0.292 0.296 0.128
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(29)"
+translation 1.362 -9.800 0.075
+rotation 0.006 -0.502 -0.865 2.986
+size 0.307 0.273 0.050
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(30)"
+translation -2.225 -4.057 0.115
+rotation -0.615 0.618 -0.489 3.059
+size 0.543 0.158 0.129
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(31)"
+translation -1.683 -0.204 0.088
+rotation 0.009 0.644 0.765 0.903
+size 0.202 0.285 0.076
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(32)"
+translation 3.137 -10.258 0.118
+rotation -0.552 0.705 -0.445 2.187
+size 0.489 0.244 0.136
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(33)"
+translation -6.911 -8.750 0.157
+rotation 0.599 -0.215 -0.772 1.044
+size 0.444 0.560 0.214
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(34)"
+translation -6.444 -1.003 0.126
+rotation 0.479 -0.563 -0.674 0.885
+size 0.286 0.287 0.153
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(35)"
+translation -1.684 -0.445 0.132
+rotation 0.236 -0.972 0.014 1.579
+size 0.149 0.271 0.164
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(36)"
+translation -3.792 -0.786 0.085
+rotation 0.798 0.579 0.167 1.996
+size 0.421 0.140 0.071
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(37)"
+translation 2.355 -6.580 0.090
+rotation -0.172 -0.859 -0.481 0.761
+size 0.136 0.511 0.081
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(38)"
+translation 6.381 -6.496 0.072
+rotation -0.112 0.950 0.292 1.825
+size 0.237 0.371 0.045
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(39)"
+translation -4.874 -1.297 0.084
+rotation -0.582 0.809 -0.079 1.656
+size 0.618 0.658 0.068
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(40)"
+translation -1.746 0.053 0.139
+rotation -0.701 0.621 -0.350 0.648
+size 0.249 0.144 0.178
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(41)"
+translation -1.809 -9.426 0.138
+rotation -0.373 0.470 0.800 2.791
+size 0.124 0.615 0.176
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(42)"
+translation 5.608 -3.061 0.153
+rotation 0.246 0.031 0.969 1.850
+size 0.458 0.286 0.206
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(43)"
+translation -8.660 1.075 0.113
+rotation 0.314 -0.919 0.240 1.616
+size 0.274 0.733 0.126
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(44)"
+translation -4.977 -8.962 0.146
+rotation 0.746 -0.666 0.029 1.630
+size 0.183 0.200 0.193
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(45)"
+translation 6.776 0.745 0.099
+rotation 0.575 -0.584 0.573 0.655
+size 0.237 0.229 0.099
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(46)"
+translation 5.371 -10.739 0.102
+rotation -0.977 0.080 -0.197 1.884
+size 0.467 0.519 0.105
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(47)"
+translation -6.551 -6.594 0.148
+rotation -0.744 0.058 0.666 1.299
+size 0.753 0.609 0.197
+appearance Roughcast {} 
+}
+
+SolidBox {
+name "debris(48)"
+translation 2.956 -4.357 0.071
+rotation 0.937 0.283 0.206 1.526
+size 0.124 0.627 0.041
+appearance Roughcast {} 
+}
+# Victims (scattered, no overlap)
+
+Victim {
+  name "victim(1)"
+  translation 5.435 0.755 0.850
+}
+
+Victim {
+  name "victim(2)"
+  translation 5.413 -7.111 0.850
+}
+
+Victim {
+  name "victim(3)"
+  translation -0.811 -8.527 0.850
+}
+
+Victim {
+  name "victim(4)"
+  translation 2.432 -2.867 0.850
+}
+
+Victim {
+  name "victim(5)"
+  translation -8.278 -8.229 0.850
+}
+
+Victim {
+  name "victim(6)"
+  translation 2.447 -10.669 0.850
+}

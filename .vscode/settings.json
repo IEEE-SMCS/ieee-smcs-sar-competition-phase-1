@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "C:/Program Files/Webots/lib/controller/python" // Adjust path for your OS and Webots version
+  ]
+}
