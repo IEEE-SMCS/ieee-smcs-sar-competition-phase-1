@@ -444,7 +444,7 @@ with open("log/<log-that-you-want-to-get-marked>", "r") as f:
   log_dict = json.load(f)
 
 # SEND REQUEST
-url = "https://ieee-sar-competition.ts.r.appspot.com/mark-log"
+url = "https://ieee-sar-hackathon.ts.r.appspot.com/mark-log"
 response = requests.post(url, json=log_dict)
 print(response.status_code)
 print(response.reason)
