@@ -51,7 +51,7 @@ The simulation environments to be used during Phase 1 are developed in Webots, a
 3. Clone this repository.
 
 ```bash
-git clone repo-url
+git clone https://github.com/IEEE-SMCS/ieee-smcs-sar-hackathon-phase-1.git
 ```
 
 4. Create a virtual python development environment. By default, Webots uses the system's Python installation.
