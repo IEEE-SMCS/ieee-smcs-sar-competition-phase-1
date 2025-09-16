@@ -1,6 +1,6 @@
-# IEEE SMC Society Artificial Intelligence (AI)-empowered Human-Machine Interaction Hackathon: Phase 1 
+# IEEE SMC Society Artificial Intelligence (AI)-empowered Human-Machine Interaction Competition: Phase 1 
 
-This is the official repository for Phase 1 of the 2025 IEEE Systems, Man, and Cybernetics Society (SMCS) AI-empowered Human-Machine Interaction Hackathon. This is an open-source competition focusing on search and rescue (SAR) challenges. Specifically, in Phase 1, teams will develop search and rescue strategies to coordinate a fleet of mobile robots searching for victims in simulation environments. The top three teams of Phase 1 will move to Phase 2 competition on implementation and demonstration with real robots. 
+This is the official repository for Phase 1 of the 2025 IEEE Systems, Man, and Cybernetics Society (SMCS) AI-empowered Human-Machine Interaction Competition. This is an open-source competition focusing on search and rescue (SAR) challenges. Specifically, in Phase 1, teams will develop search and rescue strategies to coordinate a fleet of mobile robots searching for victims in simulation environments. The top three teams of Phase 1 will move to Phase 2 competition on implementation and demonstration with real robots. 
 
 **Contents:**
 
@@ -51,7 +51,7 @@ The simulation environments to be used during Phase 1 are developed in Webots, a
 3. Clone this repository.
 
 ```bash
-git clone https://github.com/IEEE-SMCS/ieee-smcs-sar-hackathon-phase-1.git
+git clone https://github.com/IEEE-SMCS/ieee-smcs-sar-competition-phase-1.git
 ```
 
 4. Create a virtual python development environment. By default, Webots uses the system's Python installation.
@@ -369,7 +369,7 @@ pip install -r requirements.txt
 - `proposed_solution.py` the file where your control algorithm is defined. This is the file that will be picked up by Webots during simulations.
 - Any additional files, custom python modules or static assets that `proposed_solution.py` depends on. Remember: no compiled objects or extraneous files!
 
-When you are ready to submit, email a link or invitation to your submission repository to `a "DOT" arogbonlo "AT" ieee "DOT" org`. Your subject line **MUST** be `IEEE SMCS SAR Hackathon Submission`. You may continue to update the repository until Phase 1 ends. Copies of the repositories will be automatically gathered at the end of Phase 1 - updates to the repository done after the Phase 1 end date will not be considered. 
+When you are ready to submit, email a link or invitation to your submission repository to `a "DOT" arogbonlo "AT" ieee "DOT" org`. Your subject line **MUST** be `IEEE SMCS SAR Competition Submission`. You may continue to update the repository until Phase 1 ends. Copies of the repositories will be automatically gathered at the end of Phase 1 - updates to the repository done after the Phase 1 end date will not be considered. 
 
 # Constraints
 
