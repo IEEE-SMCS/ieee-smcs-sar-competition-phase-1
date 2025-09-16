@@ -305,7 +305,7 @@ class HumanSupervisor:
         print(f"[SUPERVISOR] Mission logs saved to {log_file}")
 
         # Send request to marking server
-        url = "https://ieee-sar-hackathon.ts.r.appspot.com/mark-log"
+        url = "https://ieee-sar-competition.ts.r.appspot.com/mark-log"
         response = requests.post(url, json=mission_data)
         if response.status_code != 200:
             warnings.warn(
